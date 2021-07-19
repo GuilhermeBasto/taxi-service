@@ -1,0 +1,188 @@
+.nav-bar {
+    height: 80px;
+    background-color: #333333;
+    box-shadow: inset 0 -2px 0 0 #2B2B2B;
+}
+
+.user-voice-icon{
+    margin-top: -20px;
+    margin-left: 24px;
+    height: 40px;
+    filter: invert(100%);
+}
+
+.logo-div{
+    padding-top: 8px;
+    margin-left: calc(100vw/2 - 131px);
+}
+
+.white-color{
+    color: white;
+}
+
+.map-div{
+    height: calc(100vh - 80px);
+    position: relative;
+}
+
+.zero-padding{
+    padding: 0;
+}
+
+.H_imprint{
+    display: none;;
+}
+
+.location{
+    background-color: #DDDDDD;
+    width: 100%;
+    height: 80px;
+    box-shadow: inset 0 -1px 0 0 #2B2B2B;
+    padding: 20px;
+}
+
+.where-to-text{
+    font-size: 26px;
+    float: left;
+}
+
+.record-div{
+    height: 35px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 5px;
+    float: right;
+    border: 1px solid black;
+}
+
+.record-div:hover{
+    cursor: pointer;
+}
+
+.mic-icon{
+    height: 20px;
+    margin-left: 8px;
+    margin-top: -5px;
+}
+
+.destiny-text{
+    font-size: 22px;
+    margin-right: 8px;
+    line-height: 22px;
+    margin-left: 5px;
+}
+
+.draw {
+    border-radius: 20px;
+    animation: blink .5s step-end infinite alternate;
+}
+
+@keyframes blink { 
+    50% { border-color: #ff0000; } 
+ }
+
+.pin-btn{
+    background: #1f262a;
+    border-radius: 2em;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    margin-bottom: 126px;
+    margin-right: 6px;
+    width: 28px;
+    height: 28px;
+}
+
+.pin-btn:hover{
+    cursor: pointer;
+}
+
+.pin-btn:active{
+    background: #4A5B65;
+}
+
+.pin-icon{
+    height: 20px;
+    filter: invert(100%);
+}
+
+.blur{
+    pointer-events: none;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.pin-btn-example{
+    background: #1f262a;
+    border-radius: 2em;
+    width: 28px;
+    height: 28px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding: 3px;
+}
+
+.example-location-text{
+    font-size: 20px;
+}
+
+.select-location{
+    display: grid;
+    text-align: left;
+    padding: 20px;
+    background-color: #DDDDDD;
+    box-shadow: inset 0 -1px 0 0 #2B2B2B;
+}
+
+.crosshair{
+    cursor: crosshair;
+}
+
+.location-option-div{
+    height: 70px;
+    margin-left: 0px;
+    margin-right: 0px;
+    box-shadow: inset 0 -1px 0 0 #bbb;
+}
+
+.location-option-div:hover{
+    cursor: pointer;
+    background-color: #fafafa;
+}
+
+body{
+    overflow: hidden;
+}
+
+.location-text-div{
+    text-align: left;
+    padding: 20px;
+    background-color: #DDDDDD;
+    box-shadow: inset 0 -1px 0 0 #2B2B2B;
+}
+
+.loader {
+    margin-left: 40%;
+    margin-top: 40%;
+    border: 16px solid grey;
+    border-radius: 50%;
+    border-top: 16px solid black;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

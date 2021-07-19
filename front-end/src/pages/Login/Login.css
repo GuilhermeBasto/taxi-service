@@ -1,0 +1,66 @@
+.taxi-img {
+  height: 100vh;
+}
+
+.login-div {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  height: 400px;
+  width: 600px;
+  border-radius: 4px;
+  border: 2px solid black;
+}
+
+.login-header {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  padding-top: 34px;
+}
+
+.login-header-img {
+  margin-left: 155px;
+  height: 40px;
+}
+
+.login-header-title {
+  font-size: 40px;
+  color: black;
+  margin-left: 24px;
+}
+
+.login-body {
+  padding: 24px 80px;
+}
+
+.user-img {
+  border: 1px solid black;
+  border-radius: 4px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-color: #fafafa;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.form-control {
+  background-color: #fafafa !important;
+  border: 1px solid black !important;
+  font-weight: 500;
+  box-shadow: none !important;
+}
+
+.login-btn {
+  width: 100%;
+  border: 1px solid black;
+  font-size: 20px;
+}
+
+.login-error-msg {
+  font-size: 15px;
+  color: darkred;
+  font-weight: 500;
+}
